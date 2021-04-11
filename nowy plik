@@ -1,0 +1,28 @@
+Object detection most usefull links:
+
+https://github.com/chuanqi305/MobileNet-SSD
+
+Model+ weights? :
+https://github.com/chuanqi305/MobileNet-SSD
+https://github.com/tensorflow/models/tree/master/research/object_detection
+https://github.com/Zehaos/MobileNet
+
+Program description:
+https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/
+https://www.pyimagesearch.com/2017/09/18/real-time-object-detection-with-deep-learning-and-opencv/?fbclid=IwAR0NaNMOcZnQQms1KDpbO3LV-0hTUKacZKJj7zJraBqy7hXjMW3vBaZpVlA
+
+
+How to run with copied code:
+$ python deep_learning_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel --image images/example_01.jpg 
+	
+	
+$ python older_link.py \
+> --prototxt wycinanka/deploy.prototxt \
+> --model wycinanka/mobilenet.caffemodel \
+> --image wycinanka/bus.jpg
+
+https://github.com/chuanqi305/MobileNet-SSD
+take deploy.prototxt and mobilenet_iter_73000.caffemodel from this
+(1) file that contains "deploy" "*.prototxt", 2nd most important phrases: "mobilenet" "*.caffemodel"
