@@ -26,3 +26,6 @@ $ python older_link.py \
 https://github.com/chuanqi305/MobileNet-SSD
 take deploy.prototxt and mobilenet_iter_73000.caffemodel from this
 (1) file that contains "deploy" "*.prototxt", 2nd most important phrases: "mobilenet" "*.caffemodel"
+
+this link provides knowledge about training your own model
+https://github.com/abhimanyu1990/SSD-Mobilenet-Custom-Object-Detector-Model-using-Tensorflow-2
