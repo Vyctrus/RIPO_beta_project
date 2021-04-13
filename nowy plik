@@ -42,3 +42,4 @@ https://docs.opencv.org/3.4/d0/d6c/tutorial_dnn_android.html
 https://www.youtube.com/watch?v=Z2vrioEr9OI
 
  implementation project(":mylibrary")
+import module "sdk" folder, not "java" bcs of... i dont know, random shit written in chineese- i  cant understand
