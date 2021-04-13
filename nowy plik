@@ -30,5 +30,6 @@ take deploy.prototxt and mobilenet_iter_73000.caffemodel from this
 this link provides knowledge about training your own model
 https://github.com/abhimanyu1990/SSD-Mobilenet-Custom-Object-Detector-Model-using-Tensorflow-2
 
-plan B) if link above won't work
-https://www.youtube.com/watch?v=IOI0o3Cxv9Q
+
+Next steps: try to make similar project on android device
+https://docs.opencv.org/3.4/d0/d6c/tutorial_dnn_android.html
