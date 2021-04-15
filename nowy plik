@@ -75,5 +75,25 @@ https://stackoverflow.com/questions/20666366/it-seems-that-your-device-does-not-
 
 then go back to https://docs.opencv.org/3.4/d0/d6c/tutorial_dnn_android.html
 You will face some problem with camerra orientation-> TODO now
+correction: wroks good if device is in landscape position
+=================================
+|                               |
+|                               |
+|                               |
+|                               |
+=================================
+and in device(android) settings sensor of position? (gyrosopce?) should be on
+
+problems occour in vertical mode
+=================
+|               |
+|               |
+|               |
+|               |
+|               |
+|               |
+|               |
+|===============|
+camera orientation seems to be rotated 90*
 
 
