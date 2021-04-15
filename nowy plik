@@ -96,4 +96,6 @@ problems occour in vertical mode
 |===============|
 camera orientation seems to be rotated 90*
 
+^--never mind, rlyi just forgot to remove ">" in <activity android:name=".MainActivity" line
+works good in landscape mode
 
