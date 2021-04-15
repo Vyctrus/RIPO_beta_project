@@ -52,3 +52,28 @@ https://stackoverflow.com/questions/63090645/adding-opencv-to-android-studio-dep
 zobaczyc to
 https://github.com/seesaa/opencv-android
 https://github.com/quickbirdstudios/opencv-android
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!started working!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+https://github.com/seesaa/opencv-android
+just:
+1. Add the following code to your project's build.gradle
+dependencies {
+    implementation "jp.seesaa.android:opencv:3.4.2.0"
+}
+then
+
+<!--Allow to use a camera-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+in android manifest (dont know if works), also u need to
+
+Go to your device settings -> apps -> YOUR APP -> Permissions -> turn on camera permission..
+https://stackoverflow.com/questions/20666366/it-seems-that-your-device-does-not-support-cameraor-it-is-locked/38039156#38039156?newreg=09d1c87ebb534bc481cb07e6b011e2dc
+
+then go back to https://docs.opencv.org/3.4/d0/d6c/tutorial_dnn_android.html
+You will face some problem with camerra orientation-> TODO now
+
+
