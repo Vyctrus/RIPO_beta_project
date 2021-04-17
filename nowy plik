@@ -99,3 +99,18 @@ camera orientation seems to be rotated 90*
 ^--never mind, rlyi just forgot to remove ">" in <activity android:name=".MainActivity" line
 works good in landscape mode
 
+
+formaty obslugiwane przez to oprogramowanie
+* * {@code * .caffemodel} (Caffe, http://caffe.berkeleyvision.org/) * 
+* {@code * .pb} (TensorFlow, https://www.tensorflow.org/) *
+* {@ kod * .t7} | {@code * .net} (Torch, http://torch.ch/) * 
+* {@code * .weights} (Darknet, https://pjreddie.com/darknet/) * 
+* {@code * .bin } (DLDT, https://software.intel.com/openvino-toolkit) * 
+* {@code * .onnx} (ONNX, https://onnx.ai/) * z następującymi rozszerzeniami: *
+* {@ code * .prototxt} (Caffe, http://caffe.berkeleyvision.org/) *
+* {@code * .pbtxt} (TensorFlow, https://www.tensorflow.org/) *
+* {@code * .cfg } (Darknet, https://pjreddie.com/darknet/) * 
+* {@code * .xml} (DLDT, https://software.intel.com/openvino-toolkit)
+BEST TUTORIAL EVER (but in RU :O)
+https://zen.yandex.ru/media/id/5cafa05b0a588d00b0a57bad/pishem-prosteishee-prilojenie-pod-android-dlia-raspoznavaniia-obektov-s-kamery-5e624bfa824a2d437a810a71
+https://github.com/tintintin/android-opencv-example/blob/master/app/src/main/AndroidManifest.xml
